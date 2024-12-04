@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial',sans-serif;
+    background: linear-gradient(to bottom, #0C1550, #2BCFFB);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+input[type="email"]:focus {
+    border-color: #007bff;
+}
+
+.boton_rec {
+    background-color: #ff2600;
+    color: white;
+    font-style: oblique;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+.boton_rec:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.boton_rec:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.form_cam {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    gap: 15px;
+}
+
+.pass_cam{
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 14px;
+    outline: none;
+}
+
+.boton_cam {
+    background-color: #33ff00;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 50%;
+}
+
+.boton_cam:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    color:white;
+}
+
+.boton_cam:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
